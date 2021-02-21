@@ -1,0 +1,23 @@
+p {color: #015668;
+  
+  background: #0D91A1;
+
+  width: 150px;
+  height: 50px;
+  
+  margin-top: 18px;
+  margin-right: 22px;
+  margin-bottom: 5px;
+  margin-left: 32px;
+  
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  
+border: 5px  solid;  color: #7DCE94;
+  
+
+  font-family: 'Oswald'; 
+  font-size: 26px;
+}

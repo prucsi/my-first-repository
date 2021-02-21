@@ -1,0 +1,75 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 800px;
+  height: 600px;
+  display: flex;
+ /* background-color: lightgray; */
+  flex-direction: row; 
+justify-content: space-between;}
+
+  
+.fej1 { 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 80px;
+  width:800px;
+  background-color: cyan;
+  margin-block:  0px;} 
+.container1 {
+  width: 800px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  display: block;
+  align-items: center;
+  flex-direction: row}
+
+.sarga {
+  background-color: orange;
+  width: 150px;
+  height: 600px;}
+
+.piros {
+  background-color: red;
+  width: 400px;
+  height: 600px;
+ 
+ }
+ .lila   {
+  background-color: purple;
+  width: 150px;
+  height: 600px;}
+
+.fekete {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: block;
+  /*display: flex;
+  justify-content:  flex-end;
+  align-items: flex-end;*/
+  float: right; right-margin: 10 px;
+  
+}
+div.feketedoboz {
+ position: absolute;
+ right: 0;
+ width: 50px;
+ height: 50px;  
+ background-color: black;
+ top: 620px;
+ bottom: 10px;
+ right: 400px;
+}
+
+{
+
+ border-radius: 0%;
+ position: fixed;
+ 
+ 
+}

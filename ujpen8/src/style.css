@@ -1,0 +1,46 @@
+.container {
+ 
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans'
+}
+.newsletter h3 {
+  margin-top: 0;}
+
+.newsletter {
+  color: gray;
+  border: solid thin #cfcfcf;
+  padding: 10px; 
+ border-radius: 3px;
+}
+
+
+.newsletter button {
+  background-color: #3cb878;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.newsletter input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4px;
+  border: solid  1px #cfcfcf;
+  border-radius: 3px;
+ 
+  box-sizing: border-box;
+}
+h3 {
+  margin-top: 60px;
+}
+.newsletter h3.second {
+  color: green;
+}
+
+.newsletter h3#second {
+  color: red;
+}

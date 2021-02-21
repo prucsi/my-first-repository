@@ -1,0 +1,125 @@
+
+.fej {
+  text-align: left;
+  font-style: bold;
+  font-family: Abril Fatface;
+  justify-content: center;
+  display: flex;
+  line-height: 15px;
+  align-items: flex-end;
+  flex-shrink: 1;
+  }
+
+.menufejszoveg {
+  font-family: Josefin Sans; 
+  font-size: 24px;
+  font-color: white;
+  display: flex;
+  align-content: center;
+  }
+
+.menufej {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 70px;
+  background-color:  #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    }
+
+a:visited {
+  color: white;
+   }
+a:hover {
+ color: darkgreen;
+ text-decoration: none;}
+
+.szovegdoboz1 {
+  position: absolute;
+  background-color: none;}
+
+.container {
+  font-family: Josefin Sans;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;}
+
+.row { 
+ display: flex;
+}
+.column{ 
+  flex: 50%;
+  padding: 0px;
+  width: 300px;
+    }
+
+.szurke {
+  background-color: #222222;
+  width: 300px;
+  display: flex-start;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 1px;}
+
+
+h1 {
+ font-family:Abril Fatface; 
+ color: #222222;
+ justify-content: rigth;}
+
+h3 {
+  text-transform: uppercase; 
+  font-size: 18px; 
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+h4 {
+  font-size: 14px; 
+  font-family: 'Josefin Sans', sans-serif;  
+  line-height: 16px;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+h5 {
+  font-size: 14px; 
+  line-height: 15px;
+  font-family: Merriweather strong;
+  font-style: italic;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+blockquote {
+  color: white;
+  font: 38px  Abril Fatface; 
+ 
+  margin-left: 0;
+  justify-content: left;
+  display: block;
+    
+  }
+
+blockquote::before {
+  content: "”"; 
+  color: white;
+  font-size: 72px; Abril Fatface;
+  margin-left: 0;
+   }
+
+p {
+  font-family: Josefin Sans;
+  line-height: 22px;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+.item {
+ font-family: Josefin Sans;
+ line-height: 24px;
+ padding-left: 35px;
+ padding-right: 35px;}

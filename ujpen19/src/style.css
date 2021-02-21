@@ -1,0 +1,59 @@
+.kekek { 
+  display: flex;
+  height: 50px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  background-color: purple;
+  margin-block:  0px;
+  align-items: center; 
+  list-style-type:none;
+}
+
+.item {list-style-type:none;
+  background-color: cyan;
+  width: 70px;
+  height: 30px;
+  border: 1px solid blue;  
+  display: inline-block;
+  align-content: flex-start; 
+  list-style-type:none;
+  padding-left: 35 px;
+  margin: 0 0 0 11px;
+  padding-left: 0;
+}
+
+#valami {
+  width: 110px;
+  height: 30px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: row 
+  
+}
+
+.sarga {
+  background-color: yellow;
+  width: 400px;
+  height: 500px;
+  flex-grow: 4;
+}
+.zold {
+  background-color: lime;
+  width: 200px;
+  height: 500px;
+  flex-grow: 1;}
+ 
+
+
+
+  
+

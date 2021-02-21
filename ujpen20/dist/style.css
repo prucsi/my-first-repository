@@ -1,0 +1,72 @@
+.kekek { 
+  display: flex;
+  height: 50px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  background-color: purple;
+  margin-block:  0px;
+  align-items: center; 
+    }
+
+.item {
+  list-style-type:none;
+  background-color: cyan;
+  width: 95px;
+  height: 30px;
+  border: 1px solid blue;  
+  display: inline-block;
+  align-content: flex-start; 
+  padding-left: 35 px;
+  margin: 0 0 0 11px;
+  padding-left: 0;
+  
+  font-size: 18px;
+  font-family: sen; 
+  font-weight: bold; 
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#valami {
+  width: 150px;
+  height: 30px;
+  font-weight: bold; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: row 
+  
+}
+
+.sarga {
+  background-color: yellow;
+  width: 400px;
+  height: 500px;
+  flex-grow: 4;}
+
+.zold {
+  background-color: lime;
+  width: 200px;
+  height: 500px;
+  flex-grow: 1;}
+ 
+a {
+  text-color: black;
+ 
+}
+
+ a:visited {
+  color: darkgreen;
+   }
+a:hover {
+ color: lime;
+text-decoration: none;}

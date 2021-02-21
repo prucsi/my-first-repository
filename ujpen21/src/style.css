@@ -1,0 +1,90 @@
+.kekek { 
+  display: flex;
+  height: 70px;
+  width:800;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 90px;
+  background-color: purple;
+  margin-block:  0px;
+  align-items: center;} 
+
+header {
+  position: fixed; 
+  position: relative;
+  top: 0; 
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+.item {
+  list-style-type:none;
+  background-color: cyan;
+  width: 95px;
+  height: 30px;
+  border: 1px solid blue;  
+  display: inline-block;
+  align-content: flex-start; 
+  padding-left: 0px;
+  margin-left: 25px;
+  
+  font-size: 18px;
+  font-family: sen; 
+  font-weight: bold; 
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#valami {
+  width: 150px;
+  height: 30px;
+  font-weight: bold; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: row 
+  
+}
+
+.sarga {
+  background-color: yellow;
+  width: 400px;
+  height: 500px;
+  flex-grow: 4;
+  margin-block:  10px;
+}
+
+.zold {
+  background-color: lime;
+  width: 200px;
+  height: 500px;
+  flex-grow: 1;
+  margin-block:  10px;}
+ 
+a {
+  text-color: black;
+ 
+}
+
+ a:visited {
+  color: darkgreen;
+   }
+a:hover {
+ color: lime;
+text-decoration: none;}
+
+.container1 {
+  width: 600px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+  margin-block:  20px;
+}

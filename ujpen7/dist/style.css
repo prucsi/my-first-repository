@@ -1,0 +1,23 @@
+body{
+  margin-left: 138px; 
+  margin-top: 28px; 
+  margin-right: 678px;
+  margin-bottom: 28px;
+}
+ 
+  background-color: blue;  
+}  
+
+fieldset {
+background-color: #FFFFFF;
+  margin: 5px; 
+
+legend {
+  background-color: FFFFFF;
+  color: black;
+  padding: 5px 5px;
+  
+  li {
+  list-style-type: square;
+}
+}
